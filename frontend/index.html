@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Home Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: white;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 20px;
+      margin: auto;
+      width: 300px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🌡️ Smart Home</h1>
+    <p>Temperatura: <span id="temp"></span>°C</p>
+    <p>Wilgotność: <span id="hum"></span>%</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
